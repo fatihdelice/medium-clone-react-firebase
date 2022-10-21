@@ -1,0 +1,81 @@
+footer {
+    font-weight: 400;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(73, 72, 72, .7);
+    margin-bottom: 60px;
+}
+
+.copyright {
+    fill: inherit;
+    letter-spacing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    font-weight: 400;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(186, 184, 184, 1);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer_bmc_button {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer_bmc_button>a {
+    width: 100%;
+}
+
+.footer_bmc_button>a>button {
+    width: 100%;
+    height: 40px;
+    background: var(--text-color);
+    border-radius: 10px;
+    border-color: rgb(236, 233, 233);
+    background: rgb(236, 233, 233);
+}
+
+.footer_bmc_button>a>button>img {
+    height: 29px;
+}
+
+.footer_bmc_button>a>button:hover {
+    border-color: rgb(245, 242, 242);
+    background: rgb(245, 242, 242);
+}
+
+
+@media (max-width: 551px) {
+    footer {
+        flex-direction: column-reverse;
+    }
+    .footer_bmc_button{
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 1080px) {
+    .footer_bmc_button{
+        display: flex;;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    footer{
+        display: flex;
+    }
+}
+
+@media (min-width: 1080px) {
+    footer{
+        display: none;
+    }
+}

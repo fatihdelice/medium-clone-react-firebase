@@ -1,0 +1,36 @@
+.not_found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.not_found img{
+    max-width: 300px;
+    margin-top: 5rem;
+}
+
+.not_found h4{
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.not_found p{
+    font-size: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.not_found p a{
+    border-bottom: 1px solid var(--primary-color);
+}
+
+@media (max-width: 550px) {
+    .not_found h4{
+        font-size: 1.5rem;
+    }
+    .not_found p{
+        font-size: 1rem;
+    }
+}

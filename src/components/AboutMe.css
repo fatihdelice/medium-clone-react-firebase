@@ -1,0 +1,152 @@
+.about {
+    margin-top: 5rem;
+}
+
+.about_title {
+    max-width: 100%;
+}
+
+.site_author_name span {
+    max-height: 54px;
+    line-height: 52px;
+    font-size: 42px;
+    word-break: break-all;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+.site_author_name {
+    margin-bottom: 2rem;
+}
+
+.about_title p {
+    font-size: 16px;
+    margin-top: .5rem;
+    line-height: 1.375;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.about_title a {
+    background: none;
+    color: var(--text-color);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.about_title a svg {
+    color: var(--text-color);
+}
+
+.btn_yt svg:hover {
+    color: #f00;
+}
+
+.btn_tw svg:hover {
+    color: #1d9bf0;
+}
+
+.btn_gh svg:hover {
+    color: #6e7681;
+}
+
+.btn_li svg:hover {
+    color: #0a66c2;
+}
+
+.btn_mail svg:hover {
+    color: #ffda3e;
+}
+
+.about_title nav {
+    font-weight: 400;
+    box-sizing: inherit;
+    display: block;
+    position: relative;
+    box-shadow: inset 0 -1px 0 rgba(73, 72, 72, 1);
+    height: 39px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.about_title nav>div {
+    font-weight: 400;
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 2px 0;
+}
+
+.about_title nav>div>span {
+    font-weight: 400;
+    box-sizing: inherit;
+    display: block;
+    padding-bottom: 6px;
+    min-width: -webkit-max-content;
+}
+
+.about_title nav>div>span>div {
+    font-weight: 400;
+    box-sizing: inherit;
+    display: block;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(245, 242, 242, 1);
+    margin-right: 32px;
+    min-width: max-content;
+}
+
+.about_title nav>div>span>div>a {
+    font-weight: 400;
+    box-sizing: inherit;
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.about_title nav>div>span>div>a>p {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    box-sizing: inherit;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(226, 223, 223, 1);
+}
+
+.about_title nav>div>span>div>a>p>span {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(226, 223, 223, 1);
+    box-sizing: inherit;
+}
+
+@media (max-width: 764px) {
+
+    .about_title>h4 {
+        font-size: 1.2rem;
+    }
+
+    .about_title h4 img {
+        width: 20px;
+    }
+
+    .about_title>p {
+        font-size: 0.8rem;
+    }
+
+}

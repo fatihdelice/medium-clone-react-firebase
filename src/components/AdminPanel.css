@@ -1,0 +1,34 @@
+.admin_panel {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 1000px;
+    margin: 5rem auto;
+}
+
+.admin_panel_title {
+    text-align: center;
+    width: 100%;
+}
+
+.admin_panel_title>h1 {
+    font-size: 1.5rem;
+}
+
+.admin_panel_title>h1>span{
+    opacity: .7;
+    color: var(--primary-color);
+}
+
+.admin_panel_title>p{
+    opacity: .5;
+    margin-top: 1em;
+}
+
+
+@media (max-width: 550px) {
+    .admin_panel_title>h1 {
+        font-size: 1rem;
+    }
+}

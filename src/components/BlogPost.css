@@ -1,0 +1,403 @@
+.post_featured {
+    margin-top: 5rem;
+}
+
+.post_featured_title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    justify-content: space-between;
+    align-items: baseline;
+    display: flex;
+    font-weight: 700;   
+}
+
+.post_featured_title div>span {
+    color: var(--lpink);
+}
+
+.post_featured_view {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: var(--lpink);
+}
+
+.page_header {
+    margin: 76px 0;
+}
+
+
+.page_header span {
+    text-rendering: optimizeSpeed;
+    -webkit-box-direction: normal;
+    font-size: calc(7*1rem);
+    line-height: 0.8;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: 900;
+}
+
+
+@media (max-width: 548px) {
+    .page_header {
+        margin: 56px 0;
+    }
+
+    .page_header span {
+        font-size: calc(4*1rem);
+    }
+}
+
+.page_intro {
+    display: flex;
+    background: #373da3;  
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+
+.page_intro p {
+    font-size: 18px;
+}
+
+@media (min-width: 440px) {
+    .page_intro {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        padding-right: 0.75rem;
+    }
+}
+
+
+
+/* Blog Article */
+
+.blog_list {
+    width: 100%;
+    flex: 1 0 auto;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.post_item {
+    margin-top: 40px;
+    width: 100%;
+    border-bottom: 1px solid rgba(73, 72, 72, 1);
+}
+
+
+.post_date {
+    word-break: break-word;
+    display: flex;
+}
+
+.post_date p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(186, 184, 184, 1);
+    box-sizing: inherit;
+}
+
+
+.new_post p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: var(--pink);
+    box-sizing: inherit;
+}
+
+.new_post svg {
+    margin-left: 5px;
+}
+
+.blog_post_content {
+    margin-top: 12px;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogpost_content_left {
+    display: block;
+    flex: 1 1 auto;
+    word-break: break-word;
+}
+
+.post_title {
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    box-sizing: inherit;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.post_title h2 {
+    fill: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    font-weight: 400;
+    overflow: hidden;
+    color: rgba(226, 223, 223, 1);
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 22px;
+    line-height: 28px;
+    max-height: 84px;
+    -webkit-line-clamp: 3;
+    letter-spacing: 0;
+}
+
+.post_description {
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    box-sizing: inherit;
+    display: block;
+}
+
+.post_description p {
+    fill: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    overflow: hidden;
+    color: rgba(226, 223, 223, 1);
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-height: 48px;
+    -webkit-line-clamp: 2;
+    letter-spacing: 0;
+}
+
+.post_after {
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: inherit;
+    display: block;
+    padding: 32px 0;
+}
+
+.post_info {
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat {
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.post_category {
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: inherit;
+    display: block;
+    padding-right: 8px;
+}
+
+.post_category span {
+    fill: inherit;
+    letter-spacing: inherit;
+    box-sizing: inherit;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(226, 223, 223, 1);
+    padding: 2px 8px;
+    background-color: rgba(45, 44, 44, 1);
+    border-radius: 99em;
+    transition: background 300ms ease;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.read_min{
+    word-break: break-word;
+    box-sizing: inherit;
+    display: block;
+}
+
+.read_min a{
+    word-break: break-word;
+    box-sizing: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    border: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.read_min a span{
+    word-break: break-word;
+    -webkit-tap-highlight-color: transparent;
+    fill: inherit;
+    letter-spacing: inherit;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: rgba(186, 184, 184, 1);
+    font-size: 13px;
+    box-sizing: inherit;
+}
+
+.post_content_right {
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    box-sizing: inherit;
+    display: block;
+    margin-left: 60px;
+}
+
+.post_content_right a {
+    box-sizing: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    border: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.post_image {
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    box-sizing: inherit;
+    display: block;
+    width: 112px;
+    height: 112px;
+}
+
+.post_image img {
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    aspect-ratio: auto 112 / 112;
+    width: 112px;
+    height: 112px;
+    box-sizing: inherit;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.post_image_responsive{
+    display: none;
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    box-sizing: inherit;
+    width: 56px;
+    height: 56px;
+}
+
+.post_image_responsive img{
+    color: inherit;
+    fill: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    aspect-ratio: auto 112 / 112;
+    width: 56px;
+    height: 56px;
+    box-sizing: inherit;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.post_share{
+    display: flex;
+    box-sizing: inherit;
+    word-break: break-word;
+    margin-right: 16px;
+}
+
+.post_share a{
+    cursor: pointer;
+}
+
+@media (max-width: 551px){
+    .post_image_responsive{
+        display: block;
+    }
+    .post_image{
+        display: none;
+    }
+    .post_description{
+        display: none;
+    }
+    .post_after{
+        padding: 16px 0;
+    }
+    .post_title{
+        padding-bottom: 0;
+    }
+    .post_title h2{
+        font-size: 16px;
+        line-height: 20px;
+        -webkit-line-clamp: 2;
+        max-height: none;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        letter-spacing: 0;
+    }
+    .post_content_right{
+        margin-left: 24px;
+    }
+}
